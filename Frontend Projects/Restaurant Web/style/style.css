@@ -1,0 +1,463 @@
+@import url(./fonts.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:-webkit-scrollbar-thumb {
+  background: #618967;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1363px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+body {
+  font-family: 'Gilroy';
+  background: #44403F;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 0;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+
+.header-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header-input-card {
+  background: #504B4A;
+  border-radius: 10px;
+  width: 555px;
+  padding: 15px 0;
+  padding-left: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  border: none;
+  outline: none;
+  color: #CFCFCF;
+}
+
+
+
+.span {
+  position: absolute;
+  left: 18px;
+  top: 16px;
+}
+
+.header__svg {
+  position: absolute;
+  right: 18px;
+  top: 15px;
+}
+
+.header-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.span__header {
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+  border-radius: 50%;
+}
+
+.header__text {
+  font-weight: 400;
+  font-family: 'Gilroy';
+  font-size: 12px;
+  line-height: 20px;
+  color: #CFCFCF;
+}
+
+.header__name-card {
+  font-size: 18px;
+  text-decoration: none;
+  color: #CFCFCF;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.card__header-karzinka {
+  width: 149px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+  border-radius: 10px;
+  gap: 10px;
+  padding: 7px 0;
+}
+
+.karzin-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  padding-right: 10px;
+}
+
+.karzin-logo {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.header-link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #403C3B;
+  background: #FFFFFF;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__card-img {
+  background: url(../img/tovuq2\ \(1\).png) no-repeat center / cover;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 484px;
+  position: relative;
+  transition: 0.3s;
+
+}
+
+
+.main__card-img::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(90deg, #211F20 0%, rgba(68, 64, 63, 0) 186%);
+  z-index: 1;
+}
+
+.card-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 57px;
+  text-align: center;
+  color: #FFFFFF;
+  z-index: 1;
+  padding-bottom: 36px;
+  transform: rotate(348deg);
+  max-width: 649px;
+  text-shadow: -2px 8px 0px #000000;
+  line-height: 109.2%;
+}
+
+.main-title-text {
+  font-weight: 700;
+  font-size: 42px;
+  max-width: 455px;
+  transform: rotate(348deg);
+  line-height: 109.2%;
+  padding: 10px 0;
+  text-align: center;
+  color: #FFFFFF;
+  z-index: 1;
+  margin-left: 131px;
+  text-shadow: 5px 8px 10px #000000;
+  position: relative;
+  background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+  border-radius: 42px 38px;
+}
+
+.indeyka__link {
+  border-radius: 20px;
+  background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+  width: 80px;
+  padding: 13px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #FFFFFF;
+  font-weight: 700;
+
+}
+
+.indeyka__link:hover {
+  background: linear-gradient(114.93deg, #ffc400 5.11%, #ffc400 94%);
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.section-card {
+  position: relative;
+  padding: 29px 0;
+}
+
+.section__card-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 54px;
+}
+
+.section__card-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  position: relative;
+  padding-bottom: 29px;
+
+}
+
+.section__card-link::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background: #618967;
+  box-shadow: 0px 5px 12px rgba(114, 164, 121, 0.3);
+  transform: rotate(-180deg);
+  bottom: 0;
+  z-index: 1;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.section__card-link:hover::before {
+  width: 100%;
+}
+
+.section-main {
+  position: relative;
+}
+
+.section-main::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.section__title-main {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.title-content {
+  padding-top: 51px;
+  padding-bottom: 11px;
+  position: relative;
+}
+
+.title-content::before {
+  content: '';
+  position: absolute;
+  width: 33px;
+  height: 11px;
+  left: -37px;
+  bottom: 26px;
+  background: #618967;
+  transform: rotate(90deg);
+}
+
+.section__card-main {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding-bottom: 50px;
+  position: relative;
+
+}
+.section__card-main::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.5px;
+  bottom: 0;
+  background: #FFFFFF;
+}
+
+.card-box {
+  max-width: 325px;
+  background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+  border-radius: 10px;
+  margin-top: 39px;
+  box-shadow: 0px 30px 45px rgba(43, 40, 40, 0.6);
+  position: relative;
+  transition: 0.5s;
+}
+
+.card-box::before {
+  background: #79B382;
+  position: absolute;
+  content: '3';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  right: -24px;
+  top: -17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.card__box-img {
+  background: url(../img/tovuq1.png) no-repeat center / cover;
+  max-width: 325px;
+  min-height: 229px;
+  border-radius: 10px;
+  transition: 0.5s;
+
+}
+
+/* .card__box-img:hover {
+  transform: scale(1.1);  
+} */
+.card-box:hover {
+  transform: scale(1.1);
+}
+
+.card__box-name {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+}
+
+.card__title-box {
+  font-weight: 700;
+  position: relative;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.card__title-box::before {
+  content: 'Вес: 225 г';
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+.card__text-box {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #CFCFCF;
+}
+
+.card__box-korzn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 20px;
+  padding-bottom: 18px;
+}
+
+.card__korzn-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.card-befor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 137px;
+  padding: 15px 0;
+  background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+  border-radius: 10px;
+  gap: 14px;
+  transition: 0.7s;
+}
+
+.card-befor:hover {
+  background: linear-gradient(114.93deg, #ffc400 5.11%, #ffc400 94%);
+  transform: scale(1.1);
+}
+
+.card__berfor-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.card-box:nth-child(2) .card__box-img {
+  background: url(../img/limon.png);
+}
+
+.card-box:nth-child(3) .card__box-img {
+  background: url(../img/baliq.png);
+  width: 312px;
+  height: 250px;
+}
+
+.card-box:nth-child(4) .card__box-img {
+  background: url(../img/utka.png);
+  width: 312px;
+  height: 250px;
+}
+.card-box .card__box-img:nth-child(2){
+  display: none;
+}

@@ -1,0 +1,24 @@
+@media(max-width:1364px) {
+    .section__card-logo {
+        gap: 38px;
+    }
+}
+
+@media(max-width:1238px) {
+    /* .section__card-logo{
+        overflow-x: scroll;
+        column-gap: 30px;
+        padding-bottom: 10px;
+        scroll-snap-type: x mandatory;
+    } */
+    .main-title {
+        font-size: 47px;
+        max-width: 583px;
+        padding-bottom: 20px;
+    }
+    .main-title-text{
+        font-size: 35px;
+        margin-left: 118px;
+        max-width: 349px;
+    }
+}
